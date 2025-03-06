@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Nueva colección de verano",
+        "descripcion": "Descubre nuestra nueva línea de calzado para la temporada de verano 2025.",
+        "fecha": "2025-02-24"
+    },
+    {
+        "titulo": "Descuentos especiales",
+        "descripcion": "Aprovecha nuestras ofertas de hasta el 50% en productos seleccionados.",
+        "fecha": "2025-02-20"
+    },
+    {
+        "titulo": "Apertura de nueva tienda",
+        "descripcion": "Estamos emocionados de anunciar la apertura de nuestra nueva tienda en Barcelona.",
+        "fecha": "2025-02-15"
+    }
+]

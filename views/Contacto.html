@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Encabezado-->
+    <header>
+        <h1>Tienda de Calzados F51</h1>
+         <!--Menu de Navegacion-->   
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="./Presupuesto.html">Presupuesto</a></li>
+                <li><a href="./Contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenido Principal-->
+    <section class="contacto">
+        <h2>Contáctanos</h2>
+        <p>Estamos aquí para ayudarte. Puedes visitarnos en nuestra oficina o ponerte en contacto con nosotros.</p>
+        <div class="contenido-contacto">
+            <!-- Información de contacto -->
+            <div class="info">
+                <p><strong>Dirección:</strong> Alcorcón, Madrid, España</p>
+                <p><strong>Teléfono:</strong> +34 000 000 000</p>
+                <p><strong>Email:</strong> contacto@empresa.com</p>
+            </div>
+            <!-- Contenedor para el mapa -->
+            <div id="map"></div>
+
+            <!-- Botón para calcular ruta -->
+            <button id="rutaBtn">Calcular Ruta</button>
+        </div>
+    </section>
+    <!--Pie de Pajina-->
+    <footer>
+        <div class="direccion">
+            <p>Alcorcón, Madrid, España</p>
+        </div>
+        <!--iconos y enlaces de redes sociales-->
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../images/instagram.jpg" alt="Instagram">
+            </a>
+            <a href="https://es-es.facebook.com/" target="_blank">
+                <img src="../images/facebook.jpg" alt="Facebook">
+            </a>
+        </div>
+        <p class="aviso-legal"><a href="#">Aviso Legal</a></p>
+    </footer>
+    <!-- Script para funcionalidades adicionales -->
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
